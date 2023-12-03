@@ -1,0 +1,17 @@
+It will work as bitly
+you will give your url and it will make it shorter for you.
+
+keeps track of total visits/clicks on url
+
+
+
+
+create folder for all the MVC
+create models first
+create routes
+import router
+create controller
+import express and models 
+generate async function export it 
+come to index.js import routes
+then app.use ........
