@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+</head>
+<body>
+    <!-- <h1>hello page</h1> -->
+    <form method="POST" action="/url">
+        <label>Enter Long URl: </label>
+        <input type="text", name="url" placeholder="https://example.com"/>
+        <button type="submit">Generate</button>
+    </form>
+    <% if(locals.id){%>
+       <li>
+       <p> Url generated :https://localhost:3000/url/<%= id%> </p>  
+       
+       </li> 
+   <% }%>
+</body>
+</html>
